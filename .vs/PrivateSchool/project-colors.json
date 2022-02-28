@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "50056bfb-0a71-471f-acf3-76a0b7a247e7": {
+      "ProjectGuid": "50056bfb-0a71-471f-acf3-76a0b7a247e7",
+      "DisplayName": "PrivateSchoolModels",
+      "ColorIndex": 0
+    },
+    "de029ed4-0767-405c-a071-23a56d7df9ca": {
+      "ProjectGuid": "de029ed4-0767-405c-a071-23a56d7df9ca",
+      "DisplayName": "PrivateSchoolBackEnd",
+      "ColorIndex": 1
+    },
+    "ff9488c2-c83e-48ad-b4e1-78f5555bb1d7": {
+      "ProjectGuid": "ff9488c2-c83e-48ad-b4e1-78f5555bb1d7",
+      "DisplayName": "PrivateSchoolFrontEnd",
+      "ColorIndex": 2
+    },
+    "0d9f59db-2d20-4da6-8e1d-57f089b2425b": {
+      "ProjectGuid": "0d9f59db-2d20-4da6-8e1d-57f089b2425b",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 3
+    },
+    "fd520ec0-d3f7-4775-b315-92bc2e1d3dc6": {
+      "ProjectGuid": "fd520ec0-d3f7-4775-b315-92bc2e1d3dc6",
+      "DisplayName": "WebApplication2",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

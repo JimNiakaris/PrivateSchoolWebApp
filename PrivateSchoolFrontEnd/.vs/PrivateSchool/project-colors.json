@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9aebd481-e014-4040-9009-67b7b2195944": {
+      "ProjectGuid": "9aebd481-e014-4040-9009-67b7b2195944",
+      "DisplayName": "PrivateSchoolBackEnd",
+      "ColorIndex": 0
+    },
+    "582305f3-e684-4214-90a0-93bc5869210e": {
+      "ProjectGuid": "582305f3-e684-4214-90a0-93bc5869210e",
+      "DisplayName": "PrivateSchoolModels",
+      "ColorIndex": 1
+    },
+    "be698d4a-f64c-47a9-ae2b-8fab21546848": {
+      "ProjectGuid": "be698d4a-f64c-47a9-ae2b-8fab21546848",
+      "DisplayName": "PrivateSchoolModels",
+      "ColorIndex": 2
+    },
+    "bbb66dd0-7a80-4232-9e2a-3622112492a0": {
+      "ProjectGuid": "bbb66dd0-7a80-4232-9e2a-3622112492a0",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 3
+    },
+    "2f5f05d5-f3ba-47ab-b7db-f5879a45d00a": {
+      "ProjectGuid": "2f5f05d5-f3ba-47ab-b7db-f5879a45d00a",
+      "DisplayName": "PrivateSchoolModelLibrary",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}
