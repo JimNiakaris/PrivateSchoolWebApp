@@ -6,7 +6,7 @@ namespace PrivateSchoolBackEnd
     using System.ComponentModel.DataAnnotations.Schema;
 
     public class Student
-    { 
+    {
         public Student()
         {
             Courses = new HashSet<Course>();
@@ -18,10 +18,15 @@ namespace PrivateSchoolBackEnd
         [Required]
         [StringLength(50)]
         public string LastName { get; set; }
-        [Column(TypeName = "date")]
+        [Required]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy", ApplyFormatInEditMode = true)]
         public DateTime DateOfBirth { get; set; }
         public decimal? Tuitions { get; set; }
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int StudentID { get; set; }
+        public string CreatedBy { get; set; }
         public virtual ICollection<Course> Courses { get; set; }
 
     }

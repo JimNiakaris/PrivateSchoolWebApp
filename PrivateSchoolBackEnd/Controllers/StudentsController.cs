@@ -82,7 +82,7 @@ namespace PrivateSchoolBackEnd.Controllers
 
             return CreatedAtAction("GetStudent", new { id = student.StudentID }, student);
         }
-
+        
         // DELETE: api/Students/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteStudent(int id)
