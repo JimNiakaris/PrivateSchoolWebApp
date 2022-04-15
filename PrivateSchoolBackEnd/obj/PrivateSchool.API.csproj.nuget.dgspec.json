@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jim\\source\\repos\\PrivateSchoolWebApp\\PrivateSchoolWebApp\\PrivateSchoolBackEnd\\PrivateSchoolBackEnd.csproj": {}
+    "C:\\Users\\jim\\source\\repos\\PrivateSchoolWebApp\\PrivateSchoolWebApp\\PrivateSchoolBackEnd\\PrivateSchool.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jim\\source\\repos\\PrivateSchoolWebApp\\PrivateSchoolWebApp\\PrivateSchoolBackEnd\\PrivateSchoolBackEnd.csproj": {
+    "C:\\Users\\jim\\source\\repos\\PrivateSchoolWebApp\\PrivateSchoolWebApp\\PrivateSchoolBackEnd\\PrivateSchool.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jim\\source\\repos\\PrivateSchoolWebApp\\PrivateSchoolWebApp\\PrivateSchoolBackEnd\\PrivateSchoolBackEnd.csproj",
-        "projectName": "PrivateSchoolBackEnd",
-        "projectPath": "C:\\Users\\jim\\source\\repos\\PrivateSchoolWebApp\\PrivateSchoolWebApp\\PrivateSchoolBackEnd\\PrivateSchoolBackEnd.csproj",
+        "projectUniqueName": "C:\\Users\\jim\\source\\repos\\PrivateSchoolWebApp\\PrivateSchoolWebApp\\PrivateSchoolBackEnd\\PrivateSchool.API.csproj",
+        "projectName": "PrivateSchool.API",
+        "projectPath": "C:\\Users\\jim\\source\\repos\\PrivateSchoolWebApp\\PrivateSchoolWebApp\\PrivateSchoolBackEnd\\PrivateSchool.API.csproj",
         "packagesPath": "C:\\Users\\jim\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jim\\source\\repos\\PrivateSchoolWebApp\\PrivateSchoolWebApp\\PrivateSchoolBackEnd\\obj\\",
         "projectStyle": "PackageReference",

@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using PrivateSchool.API;
 using PrivateSchoolBackEnd;
 
-namespace PrivateSchoolBackEnd.Controllers
+namespace PrivateSchool.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -82,7 +83,7 @@ namespace PrivateSchoolBackEnd.Controllers
 
             return CreatedAtAction("GetStudent", new { id = student.StudentID }, student);
         }
-        
+
         // DELETE: api/Students/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteStudent(int id)

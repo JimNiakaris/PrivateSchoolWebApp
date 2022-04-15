@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PrivateSchoolBackEnd;
+using PrivateSchoolAPI;
 
 #nullable disable
 
-namespace PrivateSchoolBackEnd.Migrations
+namespace PrivateSchoolAPI.Migrations
 {
     [DbContext(typeof(PrivateSchoolContext))]
     [Migration("20220211153940_initial")]
@@ -69,7 +69,7 @@ namespace PrivateSchoolBackEnd.Migrations
                     b.ToTable("CourseTrainer");
                 });
 
-            modelBuilder.Entity("PrivateSchoolBackEnd.Assignment", b =>
+            modelBuilder.Entity("PrivateSchoolAPI.Assignment", b =>
                 {
                     b.Property<int>("AssignmentID")
                         .ValueGeneratedOnAdd()
@@ -101,7 +101,7 @@ namespace PrivateSchoolBackEnd.Migrations
                     b.ToTable("Assignments");
                 });
 
-            modelBuilder.Entity("PrivateSchoolBackEnd.Course", b =>
+            modelBuilder.Entity("PrivateSchoolAPI.Course", b =>
                 {
                     b.Property<int>("CourseID")
                         .ValueGeneratedOnAdd()
@@ -130,7 +130,7 @@ namespace PrivateSchoolBackEnd.Migrations
                     b.ToTable("Courses");
                 });
 
-            modelBuilder.Entity("PrivateSchoolBackEnd.Student", b =>
+            modelBuilder.Entity("PrivateSchoolAPI.Student", b =>
                 {
                     b.Property<int>("StudentID")
                         .ValueGeneratedOnAdd()
@@ -160,7 +160,7 @@ namespace PrivateSchoolBackEnd.Migrations
                     b.ToTable("Students");
                 });
 
-            modelBuilder.Entity("PrivateSchoolBackEnd.Trainer", b =>
+            modelBuilder.Entity("PrivateSchoolAPI.Trainer", b =>
                 {
                     b.Property<int>("TrainerID")
                         .ValueGeneratedOnAdd()
@@ -190,13 +190,13 @@ namespace PrivateSchoolBackEnd.Migrations
 
             modelBuilder.Entity("AssignmentCourse", b =>
                 {
-                    b.HasOne("PrivateSchoolBackEnd.Assignment", null)
+                    b.HasOne("PrivateSchoolAPI.Assignment", null)
                         .WithMany()
                         .HasForeignKey("AssignmentsAssignmentID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("PrivateSchoolBackEnd.Course", null)
+                    b.HasOne("PrivateSchoolAPI.Course", null)
                         .WithMany()
                         .HasForeignKey("CoursesCourseID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -205,13 +205,13 @@ namespace PrivateSchoolBackEnd.Migrations
 
             modelBuilder.Entity("CourseStudent", b =>
                 {
-                    b.HasOne("PrivateSchoolBackEnd.Course", null)
+                    b.HasOne("PrivateSchoolAPI.Course", null)
                         .WithMany()
                         .HasForeignKey("CoursesCourseID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("PrivateSchoolBackEnd.Student", null)
+                    b.HasOne("PrivateSchoolAPI.Student", null)
                         .WithMany()
                         .HasForeignKey("StudentsStudentID")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -220,13 +220,13 @@ namespace PrivateSchoolBackEnd.Migrations
 
             modelBuilder.Entity("CourseTrainer", b =>
                 {
-                    b.HasOne("PrivateSchoolBackEnd.Course", null)
+                    b.HasOne("PrivateSchoolAPI.Course", null)
                         .WithMany()
                         .HasForeignKey("CoursesCourseID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("PrivateSchoolBackEnd.Trainer", null)
+                    b.HasOne("PrivateSchoolAPI.Trainer", null)
                         .WithMany()
                         .HasForeignKey("TrainersTrainerID")
                         .OnDelete(DeleteBehavior.Cascade)

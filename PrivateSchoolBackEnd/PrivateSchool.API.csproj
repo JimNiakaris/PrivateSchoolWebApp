@@ -5,6 +5,7 @@
     <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-PrivateSchoolBackEnd-FDB3D6A1-6D1D-4F1F-80C1-5F141489F5C3</UserSecretsId>
+    <PackageId>PrivateSchool.API</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

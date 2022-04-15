@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Web;
-using PrivateSchoolBackEnd;
+using PrivateSchool.API;
 
 var builder = WebApplication.CreateBuilder(args);
 

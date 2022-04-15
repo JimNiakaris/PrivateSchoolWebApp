@@ -1,19 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using PrivateSchoolBackEnd;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrivateSchoolBackEnd
+namespace PrivateSchool.API
 {
-public class PrivateSchoolContext : DbContext
+    public class PrivateSchoolContext : DbContext
 
     {
-        public PrivateSchoolContext(DbContextOptions<PrivateSchoolContext> options) :base(options) { }
+        public PrivateSchoolContext(DbContextOptions<PrivateSchoolContext> options) : base(options) { }
         public virtual DbSet<Course> Courses { get; set; }
-        public virtual DbSet<Student> Students { get; set; }    
+        public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Assignment> Assignments { get; set; }
         public virtual DbSet<Trainer> Trainers { get; set; }
 
